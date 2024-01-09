@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  background: url('./assets/bg.jpg') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  width: 700px;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-family: 'Rubik Scribble', system-ui;
+  user-select: none;
 }
