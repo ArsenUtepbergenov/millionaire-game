@@ -25,7 +25,6 @@
   color: white;
   font-size: 1.6rem;
   font-weight: bold;
-  align-self: end;
   margin-top: 20px;
   margin-right: 20px;
   border-radius: 16px;

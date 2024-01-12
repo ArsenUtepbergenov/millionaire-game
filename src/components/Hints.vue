@@ -53,9 +53,8 @@ function disableHint(hintRef: Ref<HTMLButtonElement | null>) {
 .hints {
   display: flex;
   gap: 10px;
-  align-self: end;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .hints .hint {
@@ -95,7 +94,7 @@ function disableHint(hintRef: Ref<HTMLButtonElement | null>) {
 
 .hints .hint.x2 {
   background-image: url('../assets/x2.png');
-  background-size: 84px 60px;
+  background-size: 90px 60px;
 }
 
 .hints .hint.red-cross {
