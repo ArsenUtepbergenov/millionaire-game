@@ -14,6 +14,14 @@
 import Hints from '../components/Hints.vue'
 import WinningList from '../components/WinningList.vue'
 import Questions from '../components/Questions.vue'
+import { useQuestionsStore } from '../store'
+import { onMounted } from 'vue'
+
+const questionsStore = useQuestionsStore()
+
+onMounted(() => {
+  questionsStore.fetchQuestions()
+})
 </script>
 
 <style lang="css">
